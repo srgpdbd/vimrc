@@ -32,5 +32,3 @@ map <F3> :NERDTreeToggle<CR>
 
 colorscheme tender
 
-let g:instant_markdown_browser = "chrome --new-window"
-let g:instant_markdown_logfile = '~/instant_markdown.log'
