@@ -7,6 +7,7 @@ TBD
 - Color schemes
 - YouCompleteMe
 - NERDTree (on F3)
+- FZF
 
 ## How to run
 

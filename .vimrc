@@ -21,6 +21,8 @@ Plugin 'VundleVim/Vundle.vim'
 Bundle 'Valloric/YouCompleteMe'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'preservim/nerdtree'
+Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plugin 'junegunn/fzf.vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -30,3 +32,5 @@ map <F3> :NERDTreeToggle<CR>
 
 colorscheme tender
 
+let g:instant_markdown_browser = "chrome --new-window"
+let g:instant_markdown_logfile = '~/instant_markdown.log'
