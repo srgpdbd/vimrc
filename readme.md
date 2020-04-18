@@ -7,7 +7,8 @@ Try to edit this
 - Color schemes
 - YouCompleteMe
 - NERDTree (on F3)
-- FZF
+- FZF (on F5)
+- Markdown Preview (on F4)
 
 ## How to run
 

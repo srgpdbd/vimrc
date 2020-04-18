@@ -34,6 +34,7 @@ let g:mkdp_browser = 'firefox'
 "Map buttons
 map <F3> :NERDTreeToggle<CR>
 map <F4> :MarkdownPreview<CR>
+map <F5> :FZF<CR>
 
 colorscheme tender
 
