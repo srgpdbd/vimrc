@@ -1,6 +1,6 @@
 # Just my vimrc
 
-TBD
+Try to edit this
 
 ## Plugins inside
 
@@ -14,3 +14,4 @@ TBD
 - cp .vimrc ~/
 - Open vim and do **:BundleInstall**
 - cd ```~/.vim/bundle/YouCompleteMe && python3 install.py``` **(requires python3 and make)**
+- cd ```~/.vim/bundle/markdown-preview.nvim/app && ./install.sh```

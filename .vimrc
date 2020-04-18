@@ -23,12 +23,17 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'preservim/nerdtree'
 Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plugin 'junegunn/fzf.vim'
+Plugin 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
+
 
 call vundle#end()
 filetype plugin indent on
 
-"Open nerdtree on F3
+let g:mkdp_browser = 'firefox'
+
+"Map buttons
 map <F3> :NERDTreeToggle<CR>
+map <F4> :MarkdownPreview<CR>
 
 colorscheme tender
 
