@@ -1,4 +1,3 @@
-syntax on
 filetype off
 set nocompatible
 
@@ -24,17 +23,22 @@ Plugin 'preservim/nerdtree'
 Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plugin 'junegunn/fzf.vim'
 Plugin 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
-
+Plugin 'sheerun/vim-polyglot'
 
 call vundle#end()
 filetype plugin indent on
 
 let g:mkdp_browser = 'firefox'
+syntax on
 
 "Map buttons
 map <F3> :NERDTreeToggle<CR>
 map <F4> :MarkdownPreview<CR>
 map <F5> :FZF<CR>
+
+map <leader>t :tabnew<CR>
+map <leader>q gT
+map <leader>e gt
 
 colorscheme tender
 
