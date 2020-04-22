@@ -8,7 +8,8 @@ set nu
 set expandtab
 set tabstop=4
 
-set colorcolumn=79
+" python specific section
+autocmd Filetype python setlocal colorcolumn=79
 
 "Set up vundle
 set rtp+=~/.vim/bundle/Vundle.vim
