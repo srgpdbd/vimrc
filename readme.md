@@ -1,18 +1,9 @@
-# Just my vimrc
-
-Try to edit this
-
 ## Plugins inside
 
-- Color schemes
-- YouCompleteMe
-- NERDTree (on F3)
-- FZF (on F5)
-- Markdown Preview (on F4)
+- Gruvbox color shcheme
+- COC
 
 ## How to run
 
-- cp .vimrc ~/
-- Open vim and do **:BundleInstall**
-- cd ```~/.vim/bundle/YouCompleteMe && python3 install.py``` **(requires python3 and make)**
-- cd ```~/.vim/bundle/markdown-preview.nvim/app && ./install.sh```
+- `mkdir ~/.vim/undodir -p` 
+- Install vim-plug `https://github.com/junegunn/vim-plug`
